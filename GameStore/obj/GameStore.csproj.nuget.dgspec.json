@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Ben\\Desktop\\projects\\ASPNetTest\\GameStore\\GameStore.csproj": {}
+    "C:\\Users\\Ben\\Desktop\\projects\\ASPNetTest\\GameStore\\GameStore.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Ben\\Desktop\\projects\\ASPNetTest\\GameStore\\GameStore.csproj": {
+    "C:\\Users\\Ben\\Desktop\\projects\\ASPNetTest\\GameStore\\GameStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Ben\\Desktop\\projects\\ASPNetTest\\GameStore\\GameStore.csproj",
+        "projectUniqueName": "C:\\Users\\Ben\\Desktop\\projects\\ASPNetTest\\GameStore\\GameStore.csproj",
         "projectName": "GameStore",
-        "projectPath": "c:\\Users\\Ben\\Desktop\\projects\\ASPNetTest\\GameStore\\GameStore.csproj",
+        "projectPath": "C:\\Users\\Ben\\Desktop\\projects\\ASPNetTest\\GameStore\\GameStore.csproj",
         "packagesPath": "C:\\Users\\Ben\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Ben\\Desktop\\projects\\ASPNetTest\\GameStore\\obj\\",
+        "outputPath": "C:\\Users\\Ben\\Desktop\\projects\\ASPNetTest\\GameStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ben\\AppData\\Roaming\\NuGet\\NuGet.Config"
