@@ -16,6 +16,8 @@ List<GameDto> games =
     ),
 ];
 
+app.MapGet("games", () => games);
+
 app.MapGet("/", () => "Hello World!");
 
 app.Run();
