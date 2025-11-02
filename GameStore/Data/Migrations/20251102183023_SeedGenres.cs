@@ -21,37 +21,23 @@ namespace GameStore.Data.Migrations
                     { 2, "Platforming" },
                     { 3, "Stealth Action" },
                     { 4, "RPG" },
-                    { 5, "Idle" }
-                });
+                    { 5, "Idle" },
+                }
+            );
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DeleteData(
-                table: "Genres",
-                keyColumn: "Id",
-                keyValue: 1);
+            migrationBuilder.DeleteData(table: "Genres", keyColumn: "Id", keyValue: 1);
 
-            migrationBuilder.DeleteData(
-                table: "Genres",
-                keyColumn: "Id",
-                keyValue: 2);
+            migrationBuilder.DeleteData(table: "Genres", keyColumn: "Id", keyValue: 2);
 
-            migrationBuilder.DeleteData(
-                table: "Genres",
-                keyColumn: "Id",
-                keyValue: 3);
+            migrationBuilder.DeleteData(table: "Genres", keyColumn: "Id", keyValue: 3);
 
-            migrationBuilder.DeleteData(
-                table: "Genres",
-                keyColumn: "Id",
-                keyValue: 4);
+            migrationBuilder.DeleteData(table: "Genres", keyColumn: "Id", keyValue: 4);
 
-            migrationBuilder.DeleteData(
-                table: "Genres",
-                keyColumn: "Id",
-                keyValue: 5);
+            migrationBuilder.DeleteData(table: "Genres", keyColumn: "Id", keyValue: 5);
         }
     }
 }
