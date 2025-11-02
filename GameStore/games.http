@@ -1,1 +1,34 @@
 GET http://localhost:5159/games
+
+
+###
+GET http://localhost:5159/games/2
+
+
+###
+POST http://localhost:5159/games
+Content-Type: application/json
+
+{
+  "name": "Zack and Wiki - Quest for Barbaros' Treasure",
+  "genre": "Puzzle",
+  "price": "29.99",
+  "releaseDate": "2007-10-23"
+}
+
+
+###
+PUT http://localhost:5159/games/5
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "Dark souls 2: Scholar of the First Sin",
+  "genre": "RPG",
+  "price": 49.99,
+  "releaseDate": "2014-03-11"
+}
+
+###
+
+DELETE http://localhost:5159/games/2
