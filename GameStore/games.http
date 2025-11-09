@@ -2,7 +2,7 @@ GET http://localhost:5159/games
 
 
 ###
-GET http://localhost:5159/games/2
+GET http://localhost:5159/games/3
 
 
 ###
@@ -37,6 +37,17 @@ Content-Type: application/json
   "id": 2,
   "name": "Dark souls 2: Scholar of the First Sin",
   "genre": "RPG",
+  "price": 49.99,
+  "releaseDate": "2014-03-11"
+}
+
+###
+PUT http://localhost:5159/games/3
+Content-Type: application/json
+
+{
+  "name": "Dark souls 2: Crown of the Ivory King",
+  "genreId": 4,
   "price": 49.99,
   "releaseDate": "2014-03-11"
 }
